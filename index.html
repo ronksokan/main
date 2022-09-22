@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background: floralwhite;
+		}
+
+		button{
+			background: aquamarine;
+			width: 100px;
+			height: 30px;
+			border-style: double;
+			border-radius: 20px;
+		}
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mainan gue</title>
+</head>
+<body>
+	<fieldset>
+		<legend><h2> Main yok </h2></legend>
+		<h4>Gini cara mainnya</h4>
+		<p>Pilih aja tombol dibawah, yang mana aja terserah....</p>
+		<br/>
+		<br/>
+		<button onclick="tes()">Main</button>
+		<button onclick="tus()">Nanti aja</button>
+	</fieldset>
+ <script>
+ 	function tes() {
+ 	var n=prompt("Pen dipanggil apa kamu ?");
+ 	var m=prompt("Hai "+n+" apa kabar ?");
+
+ 	var c=confirm("Mau Kenalan ?");
+ 	if(c == true){
+ 		alert("siaaaaaaap "+n+", namaku adalah.....");
+ 		document.write("<h1> Ndak usah kepo ya</h1>");
+ 		window.location="https://www.facebook.com/m.wahid.58/";
+ 	}else{
+ 		alert("oh gitu");
+ 		document.write("<h1>Ini fb Kamu ?</h1>")
+ 		window.location="https://www.facebook.com/profile/";
+ 	}
+ }
+
+ function tus() {
+ 	alert("Ok Kapan-kapan ya");
+ 	window.location="https://www.youtube.com/watch?v=29p72GCA8fo";
+ }
+
+ </script>
+ 	
+
+
+ </fieldset>
+</body>
+</html>
